@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+:root{
+    --background-color-of-navbar:#333;
+}
+
+.navbar{
+    background-color: var(--background-color-of-navbar);
+    color: white;
+    padding: 17px;
+    display: flex;
+    justify-content: space-between;
+}
