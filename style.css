@@ -9,13 +9,30 @@
     --background-color-of-navbar:#333;
     --color:#fff;
 }
+body{
+    background-image: url("https://source.unsplash.com/random/100*100");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 .navbar{
-    background-color: var(--background-color-of-navbar);
+    background-color: rgba(0,0,0,0.1);
     color: var(--color);
     padding: 17px;
     display: flex;
     justify-content: space-between;
+}
+.navbar #logo{
+    color: white;
+    font-size: 1.8rem;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.navbar:hover{
+    backdrop-filter: blur(10px);
 }
 
 .hamburger-menu{
@@ -43,6 +60,10 @@
 .menu-items a{
     text-decoration: none;
     color: var(--color);
+    font-size: 1.4rem;
+    text-align: center;
+    cursor: pointer;
+    float: right;
 }
 
 
@@ -65,6 +86,4 @@
         margin: 10px 0px;
     }
 }
-
-
 
