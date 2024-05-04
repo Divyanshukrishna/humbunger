@@ -1,9 +1,9 @@
 function toggleMenu() {
   var menuItems = document.getElementById("menuItems");
-  menuItems.addEventListener("hover",()=>{
+  menuItems.addEventListener("mouseover",()=>{
     let colorChange = document.querySelector("a");
     let valueOfcolor = colorChangeOfIcons();
-    colorChange = valueOfcolor();
+    colorChange.style.color = valueOfcolor;
   });
   if (menuItems.style.display === "flex") {
     menuItems.style.display = "none";
