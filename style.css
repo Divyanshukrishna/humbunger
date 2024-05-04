@@ -10,7 +10,7 @@
     --color:#fff;
 }
 body{
-    background-image: url("https://source.unsplash.com/random/1920*1080");
+    background-image: url("https://source.unsplash.com/random/1999*1990");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -92,7 +92,7 @@ body{
         top: 72px;
         left: 0px;
         width: 100%;
-        background-color: var(--background-color-of-navbar);
+        background-color: rgba(0,0,0,0.1);
         padding: 12px;
         z-index: 1;
     }
