@@ -75,7 +75,7 @@ body{
 
 @media(max-width:770px){
     body{
-        background-image: url("https://source.unsplash.com/random/640*1136");
+        background-image: url("https://source.unsplash.com/random/360*740");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
